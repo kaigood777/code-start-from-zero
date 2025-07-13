@@ -4,7 +4,7 @@ detector = cv2.CascadeClassifier('D:\\learning\\picture opencv\\face_detect.xml'
 recog = cv2.face.LBPHFaceRecognizer_create ()     
 faces = [] 
 ids = [] 
-
+ 
 for i in range(1,21):
     img = cv2.imread('D:\\learning\\picture opencv\\use picture\\{i}.jpg')  
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) 
