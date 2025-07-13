@@ -6,7 +6,7 @@ import cv2
 faceCascade=cv2.CascadeClassifier('D:\\learning\\pictureopencv\\face_detect.xml')     
 
 
-
+ 
 video_capture = cv2.VideoCapture(1)
 
 while True:
